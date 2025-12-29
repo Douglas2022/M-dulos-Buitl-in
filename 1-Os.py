@@ -16,15 +16,15 @@ os.system('cls')
 #3- Cancela o desligamento
 # os.system('shutdown/a')
 
-def DesligaremUmaHora():
-    os.system('shutdown /s /t 3600')    
+# def DesligaremUmaHora():
+#     os.system('shutdown /s /t 3600')    
 
-def DesligarEmMeiaHora():
-    os.system(('shutdown /s /t 1800'))
+# def DesligarEmMeiaHora():
+#     os.system(('shutdown /s /t 1800'))
 
-def CancelaShutDown():
-    os.system(('shutdown /a'))
-CancelaShutDown()
+# def CancelaShutDown():
+#     os.system(('shutdown /a'))
+# CancelaShutDown()
 
 
 
