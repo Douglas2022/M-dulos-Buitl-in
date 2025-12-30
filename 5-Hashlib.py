@@ -12,3 +12,8 @@ message = "Eliana Nunes da Silva".encode()
 algoritimo.update(message)
 print(algoritimo.hexdigest())
 print("----------------------------------------------")
+# 1- Ultilizando o MD5
+md5 = hashlib.md5()
+md5.update(message)
+print(md5.hexdigest())
+print("----------------------------------------------")
