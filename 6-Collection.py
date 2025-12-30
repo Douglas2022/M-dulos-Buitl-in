@@ -8,3 +8,10 @@ fruits = ["Banana","Maçã","Perâ","Uva","Salada-mista","Graviola","Banana",
           ]
 print(fruits)
 print(Counter(fruits))
+print("----------------------------------------------------------------------")
+# 2- Ultilizando a tupla nomeada
+game = namedtuple('game',['name','price','note'])
+g1 = game("Fifa23",90.5,8.5)
+g2 = game("Residente evil 4 - Remake",300,10.0)
+print(g1,g2)
+# print(g2)
