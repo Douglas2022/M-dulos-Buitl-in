@@ -14,4 +14,9 @@ game = namedtuple('game',['name','price','note'])
 g1 = game("Fifa23",90.5,8.5)
 g2 = game("Residente evil 4 - Remake",300,10.0)
 print(g1,g2)
-# print(g2)
+print("----------------------------------------------------------------------")
+# 3- Ordenar um dicionário
+students = {"Pedro":23,"Ana":22,"Ronaldo":26,"Janaina":25}
+# a = sorted(students.items(),key = itemgetter(1))
+a = sorted(students.items(),key = itemgetter(0))
+print(a)
