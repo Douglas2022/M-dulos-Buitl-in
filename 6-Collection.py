@@ -20,3 +20,12 @@ students = {"Pedro":23,"Ana":22,"Ronaldo":26,"Janaina":25}
 # a = sorted(students.items(),key = itemgetter(1))
 a = sorted(students.items(),key = itemgetter(0))
 print(a)
+# 3- Ultilizando uma fila em ambas as extremidades
+deq = deque([20,40,60,80])
+deq.appendleft(10)
+print(deq)
+deq.append(90)
+deq.popleft()
+deq.pop()
+print(deq)
+
