@@ -11,5 +11,10 @@ print("----------------------------")
 name = "Curso python"
 r2 = random.choice(name)
 print(r2)
+print("----------------------------")
+# 4-Selecionar mais de um valor aleatório - (random.sample(sequencia,tamanho))
+print(random.sample(lista1,2))
+print(random.sample(lista1,4))
+
 
 
